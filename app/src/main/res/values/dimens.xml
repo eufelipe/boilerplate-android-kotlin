@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Helpers -->
+
+    <dimen name="margin">16dp</dimen>
+    <dimen name="padding">16dp</dimen>
+    <dimen name="radius">45dp</dimen>
+
+    <!-- Sizes -->
+    <dimen name="zero">0dp</dimen>
+
+    <dimen name="tiny">4dp</dimen>
+    <dimen name="small">8dp</dimen>
+    <dimen name="regular">16dp</dimen>
+    <dimen name="medium">24dp</dimen>
+    <dimen name="big">32dp</dimen>
+    <dimen name="huge">40dp</dimen>
+    <dimen name="giant">48dp</dimen>
+
+    <dimen name="sm">8dp</dimen>
+    <dimen name="md">24dp</dimen>
+    <dimen name="lg">32dp</dimen>
+    <dimen name="xl">40dp</dimen>
+    <dimen name="xxl">48dp</dimen>
+    <dimen name="xxxl">56dp</dimen>
+
+    <!-- Text -->
+    <dimen name="textTiny">10sp</dimen>
+    <dimen name="textSmall">12sp</dimen>
+    <dimen name="textRegular">14sp</dimen>
+    <dimen name="textMedium">16sp</dimen>
+    <dimen name="textBig">18sp</dimen>
+    <dimen name="textHuge">24sp</dimen>
+    <dimen name="textGiant">36sp</dimen>
+
+    <dimen name="textSm">10sp</dimen>
+    <dimen name="textMd">12sp</dimen>
+    <dimen name="text">14sp</dimen>
+    <dimen name="textLg">16sp</dimen>
+    <dimen name="textXl">18sp</dimen>
+    <dimen name="textXxl">24sp</dimen>
+    <dimen name="textXxxl">36sp</dimen>
+
+
+</resources>

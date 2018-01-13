@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:id="@+id/viewError"
+        style="@style/linearLayoutVertical"
+        android:layout_height="match_parent"
+        android:padding="@dimen/huge"
+        android:visibility="gone"
+        tools:visibility="visible">
+
+        <TextView
+            android:id="@+id/tvErrorTitle"
+            style="@style/title"
+            android:layout_marginTop="@dimen/margin"
+            android:gravity="center"
+            android:text="@string/error_title"
+            android:textColor="@color/danger" />
+
+        <TextView
+            android:id="@+id/tvErrorDescription"
+            style="@style/paragraph"
+            android:layout_marginTop="@dimen/margin"
+            android:gravity="center"
+            android:text="@string/error_description" />
+
+        <Button
+            android:id="@+id/btTryAgain"
+            style="@style/ButtonDanger"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/margin"
+            android:text="@string/error_button_try_again" />
+
+    </LinearLayout>
+</layout>

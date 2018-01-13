@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Boilerplate Android kotlin</string>
+
+
+
+    <!-- Error System -->
+    <string name="error_title">Opss! Ocorreu um erro!</string>
+    <string name="error_description">Por favor verifique sua conexão com a internet e tente novamente</string>
+    <string name="error_button_try_again">Tentar novamente</string>
+    <string name="error_not_network_access">Sem acesso a internet!</string>
+
+
+
+</resources>

@@ -1,0 +1,192 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- Menu Drawer-->
+        <item name="drawerArrowStyle">@style/AppTheme.DrawerArrowStyle</item>
+
+    </style>
+
+
+    <!-- NoActionBar -->
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+    <!-- PopupOverlay -->
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColorPrimary">@color/grayTextDark</item>
+        <item name="android:textColorSecondary">@color/grayTextLight</item>
+        <item name="android:colorBackground">@color/white</item>
+    </style>
+
+
+    <!-- PopupOverlay -->
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:colorBackground">@color/white</item>
+        <item name="android:textColor">@color/grayTextLight</item>
+    </style>
+
+
+    <!-- Menu Drawer-->
+
+    <style name="AppTheme.DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@color/white</item>
+        <item name="colorControlNormal">@color/white</item>
+    </style>
+
+
+    <!-- Splash -->
+
+    <style name="SplashScreen">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:windowTitleSize">@dimen/zero</item>
+    </style>
+
+
+    <!-- Helpers -->
+
+    <style name="matchMatch">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="matchWrap">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="wrapWrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="wrapMatch">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+
+    <!-- Linear Layout -->
+
+    <style name="linearLayoutVertical" parent="matchWrap">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="linearLayoutHorizontal" parent="matchWrap">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+
+    <!-- Margins -->
+
+    <style name="marginHorizontal">
+        <item name="android:layout_marginLeft">@dimen/margin</item>
+        <item name="android:layout_marginRight">@dimen/margin</item>
+    </style>
+
+    <style name="marginVertical">
+        <item name="android:layout_marginTop">@dimen/margin</item>
+        <item name="android:layout_marginBottom">@dimen/margin</item>
+    </style>
+
+    <style name="marginZero">
+        <item name="android:layout_marginTop">@dimen/zero</item>
+        <item name="android:layout_marginBottom">@dimen/zero</item>
+        <item name="android:layout_marginLeft">@dimen/zero</item>
+        <item name="android:layout_marginRight">@dimen/zero</item>
+    </style>
+
+
+    <!-- Padding -->
+
+    <style name="paddingHorizontal">
+        <item name="android:paddingLeft">@dimen/padding</item>
+        <item name="android:paddingRight">@dimen/padding</item>
+    </style>
+
+    <style name="paddingVertical">
+        <item name="android:paddingTop">@dimen/padding</item>
+        <item name="android:paddingBottom">@dimen/padding</item>
+    </style>
+
+    <style name="paddingZero">
+        <item name="android:paddingTop">@dimen/zero</item>
+        <item name="android:paddingBottom">@dimen/zero</item>
+        <item name="android:paddingLeft">@dimen/zero</item>
+        <item name="android:paddingRight">@dimen/zero</item>
+    </style>
+
+
+    <!-- Gravity -->
+
+    <style name="left">
+        <item name="android:gravity">left</item>
+        <item name="android:layout_gravity">left</item>
+    </style>
+
+    <style name="right">
+        <item name="android:gravity">right</item>
+        <item name="android:layout_gravity">right</item>
+    </style>
+
+
+    <!-- Line Divider -->
+
+    <style name="hrNoPadding">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dip</item>
+        <item name="android:background">@color/divider</item>
+    </style>
+
+    <style name="hr" parent="hrNoPadding">
+        <item name="android:layout_marginTop">@dimen/margin</item>
+        <item name="android:layout_marginBottom">@dimen/margin</item>
+    </style>
+
+
+    <!-- Buttons -->
+
+    <style name="Button" parent="@style/Widget.AppCompat.Button.Borderless">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/huge</item>
+        <item name="android:background">@drawable/button_round_primary</item>
+        <item name="android:paddingLeft">@dimen/huge</item>
+        <item name="android:paddingRight">@dimen/huge</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="ButtonSuccess" parent="Button">
+        <item name="android:background">@drawable/button_round_success</item>
+    </style>
+
+    <style name="ButtonDanger" parent="Button">
+        <item name="android:background">@drawable/button_round_danger</item>
+    </style>
+
+
+    <!-- Texts -->
+    <style name="paragraph" parent="matchWrap">
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Medium</item>
+    </style>
+
+    <style name="title" parent="matchWrap">
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Large</item>
+    </style>
+
+</resources>
